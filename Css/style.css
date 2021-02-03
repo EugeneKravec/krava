@@ -1,4 +1,21 @@
-body {
-    background-color: bisque;
-    color: blue;
+#svg-sprite {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  fill: #1ea896;
+}
+
+.icon:hover, .icon:focus {
+  fill: #ff715b;
 }
