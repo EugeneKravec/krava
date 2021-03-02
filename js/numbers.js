@@ -5,3 +5,7 @@ const result = Number.parseInt(elementWidth);
 
 console.log(result);
 console.log(typeof result);
+
+let elementHeight = '200.97px';
+elementHeight = Number.parseFloat(elementHeight);
+console.log('elementHeight: ', elementHeight)
